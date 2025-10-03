@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syed Sameer | Certificates</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- STARFIELD BACKGROUND -->
+  <canvas id="star-bg"></canvas>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>My Certificates</h1>
+    <p>Click on any certificate to enlarge</p>
+  </header>
+
+  <!-- CERTIFICATES GALLERY -->
+  <section class="certificates-gallery">
+    <div class="gallery-grid">
+      <!-- Example certificate -->
+      <div class="certificate-item">
+        <img src="certificates/cisco_netacad_badge_cyber_threat_management.jpg" alt="Cisco NetAcad Badge CTM">
+      </div>
+      <div class="certificate-item">
+        <img src="certificates/cisco_netacad_badge_intro_to_cybersecurity.jpg" alt="Cisco NetAcad Badge I2CS">
+      </div>
+      <div class="certificate-item">
+        <img src="certificates/codealpha_intern_cybersecurity_2025.jpg" alt="Code Alpha Virtual Internship">
+      </div>
+      <!-- Add all your other certificate images here in the same format -->
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
